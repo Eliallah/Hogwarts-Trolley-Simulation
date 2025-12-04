@@ -1,9 +1,5 @@
 /* Name: (Eliallah Dadzie)
 Date: (01/24/2023)
-Assignment: (Assignment #1)
-Due Date: (01/27/2023)
-About this project: (Calculating the price before and after tax of different items in the wizarding world )
-Assumptions: (I assume that the customer is going to purchase a perfect amount of frogs, beans, bonbons & cauldrons....))
 
 All work below was performed by (Eliallah Dadzie) */
 
@@ -32,7 +28,7 @@ int main()
      double FrogsCost;
      double BonbonsCost;
      double CauldronsCost;
-     
+    
     
      //Cout Statements for Menu
      cout << "Anything off the trolley, dears?" << endl;
@@ -66,7 +62,6 @@ int main()
      double TotalWithTax = Total * WizardTax;
      double TotalAfterTax = Total + TotalWithTax;
      
-
      
     //for 2 decimal place
      cout << fixed << showpoint << setprecision (2);
@@ -76,10 +71,6 @@ int main()
      cout << "Tax (6.50%): $" << TotalWithTax << endl;
      cout << "Total (Wizard Tax): $" << TotalAfterTax << endl;
      cout << "\nEnjoy your candies!" << endl;
-     
-     
-     
-     
      
      
 }
